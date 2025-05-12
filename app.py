@@ -70,13 +70,13 @@ try:
         ax.grid(True)
         st.pyplot(fig)
 
-    st.subheader("📈 Posición")
+    st.subheader("Posición")
     graficar(t_vals, x_vals, "x(t)", "blue")
 
-    st.subheader("📈 Velocidad")
+    st.subheader("Velocidad")
     graficar(t_vals, v_vals, "v(t)", "orange")
 
-    st.subheader("📈 Aceleración")
+    st.subheader("Aceleración")
     graficar(t_vals, a_vals, "a(t)", "red")
 
 except Exception as e:
